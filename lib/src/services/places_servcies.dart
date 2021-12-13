@@ -9,7 +9,7 @@ import 'dart:convert' as convert;
 
 class PlacesService{
 
-  final String key = "AIzaSyCQQ7-njGXv9P8W1iFn7Xd1OyjcawWQM-M";
+  final String key = "";
 
    Future<List<PlaceSearch>> getAutoComplete(String search)async{
 
